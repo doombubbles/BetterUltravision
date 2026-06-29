@@ -1,4 +1,4 @@
-﻿using Il2CppAssets.Scripts.Models;
+using Il2CppAssets.Scripts.Models;
 using Il2CppAssets.Scripts.Models.Towers.Mods;
 using BetterUltraVision;
 using BTD_Mod_Helper;
@@ -11,6 +11,7 @@ using MelonLoader;
 
 [assembly: MelonInfo(typeof(BetterUltraVisionMod), ModHelperData.Name, ModHelperData.Version, ModHelperData.RepoOwner)]
 [assembly: MelonGame("Ninja Kiwi", "BloonsTD6")]
+[assembly: MelonGame("Ninja Kiwi", "BloonsTD6-Epic")]
 namespace BetterUltraVision;
 
 public class BetterUltraVisionMod : BloonsTD6Mod
